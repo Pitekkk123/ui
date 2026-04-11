@@ -55,6 +55,7 @@
     "fumadocs-ui": "16.0.5",
     "input-otp": "^1.4.2",
     "jotai": "^2.15.0",
+    "jspdf": "^4.2.1",
     "little-date": "^1.0.0",
     "lodash": "^4.17.23",
     "lru-cache": "^11.2.4",

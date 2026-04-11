@@ -1,5 +1,10 @@
 "use client"
 
+import {
+  DEFAULT_INVOICE_DATA,
+  generatePremiumPdf,
+} from "@/lib/generate-premium-pdf"
+
 import { Badge } from "@/registry/bases/radix/ui/badge"
 import { Button } from "@/registry/bases/radix/ui/button"
 import {
@@ -103,7 +108,11 @@ export function Invoice() {
         </Table>
       </CardContent>
       <CardFooter>
-        <Button variant="outline" size="sm">
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={() => generatePremiumPdf(DEFAULT_INVOICE_DATA)}
+        >
           Download PDF
         </Button>
         <Button size="sm" className="ml-auto">
