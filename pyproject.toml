@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "macro-snapshot"
+version = "0.1.0"
+description = "Macro Risk Overlay Snapshot Engine for Momentum Fund"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0,<3.0",
+    "polygon-api-client>=1.13,<2.0",
+    "pyarrow>=14.0,<18.0",
+    "python-dotenv>=1.0,<2.0",
+    "requests>=2.31,<3.0",
+    "yfinance>=0.2,<1.0",
+    "numpy>=1.24,<3.0",
+]
+
+[project.scripts]
+macro-snapshot = "macro_snapshot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
