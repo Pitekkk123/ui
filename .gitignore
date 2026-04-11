@@ -45,3 +45,14 @@ tsconfig.tsbuildinfo
 .playwright-mcp
 shadcn-workspace
 .codex-artifacts
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+data/
+logs/
+.env
+.pytest_cache/
