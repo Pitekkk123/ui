@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ai-design-mcp": {
+      "command": "python3",
+      "args": ["-m", "src.server"],
+      "cwd": "${workspaceFolder}/ai-design-mcp",
+      "env": {
+        "ANTHROPIC_API_KEY": "${env:ANTHROPIC_API_KEY}",
+        "PROJECT_ROOT": "${workspaceFolder}"
+      }
+    }
+  }
+}
