@@ -13,7 +13,9 @@ immersive / award-winning". Jeżeli rozwiązanie jest generyczne, pozostaje gene
 niezależnie od liczby efektów.
 
 Wykrycie sygnatury = powód do odrzucenia koncepcji, nie do kosmetycznej poprawki
-(patrz `04_acceptance_gates.md`).
+(patrz `04_acceptance_gates.md`). Pełny rejestr punkt-po-punkcie (7 testów operacyjnych,
+15 sygnatur z regułą „co zamiast", sygnatury per obszar — w tym typografia z notą precedencji
+o Inter): `11_slop_signatures_registry.md`.
 
 ## 1. Generyczny dark SaaS i fintech
 

@@ -97,3 +97,4 @@ Niższy poziom nigdy nie pogarsza wyższego.
 | `references/08_uxui_web_foundry.md` | Wariant web-only: stałe instrukcje projektu do wklejania (konstytucja nadrzędna) |
 | `references/09_uxui_web_brief.md` | Rozszerzony brief zadań web-only (17 sekcji); para z 08 |
 | `references/10_master_system_prompt.md` | Tryb turniejowy: 6 koncepcji, panel krytyków ≥84/100, reconnaissance |
+| `references/11_slop_signatures_registry.md` | Pamięć trwała: 7 testów, 15 sygnatur → co zamiast, sygnatury per obszar, werdykt red-team (uwaga: nadpisuje „preferuj Inter") |
