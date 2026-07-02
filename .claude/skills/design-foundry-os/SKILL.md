@@ -33,8 +33,9 @@ glass / 3D" **nie są** zgodą na generyczne efekty.
 
 ## Sekwencja pracy (nie pomijaj kroków)
 
-1. **Brief** — `references/06_task_brief_template.md`. Fakty ≠ założenia ≠ preferencje.
-   Braki nieblokujące: załóż i oznacz. Braki blokujące: maks. 5 precyzyjnych pytań.
+1. **Brief** — `references/06_task_brief_template.md`; dla zadań wyłącznie webowych rozszerzony
+   `references/09_uxui_web_brief.md`. Fakty ≠ założenia ≠ preferencje. Braki nieblokujące:
+   załóż i oznacz. Braki blokujące: maks. 5 precyzyjnych pytań.
 2. **Alignment gate** — użytkownik, problem, główne zadanie, główna akcja, platforma, zakres,
    metryka sukcesu, elementy chronione, profil stylistyczny, kryteria akceptacji. Nowy produkt /
    pełny redesign → **3 rzeczywiście odmienne koncepcje** + krytyka + rekomendacja. Drobna
@@ -94,3 +95,4 @@ Niższy poziom nigdy nie pogarsza wyższego.
 | `references/06_task_brief_template.md` | Szablon briefu każdego zadania |
 | `references/07_toolchain.md` | Darmowy/tani toolchain: Figma, Affinity, Blender, GSAP, Rive… |
 | `references/08_uxui_web_foundry.md` | Wariant web-only: stałe instrukcje projektu do wklejania (konstytucja nadrzędna) |
+| `references/09_uxui_web_brief.md` | Rozszerzony brief zadań web-only (17 sekcji); para z 08 |
