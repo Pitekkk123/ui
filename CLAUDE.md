@@ -24,6 +24,13 @@ wyboru prowadzące od briefu do właściwego trybu; nie wymaga znajomości skill
 
 ## Design — DESIGN FOUNDRY OS (nadrzędne przy każdej pracy wizualnej)
 
+**Słowo „design" (i każde zadanie, którego wynik się ogląda) → wczytaj NAJPIERW indeks pamięci
+designu `.claude/skills/design-foundry-os/references/14_design_memory_index.md`** (katalog
+kanoniczny: preferencje estetyczne, artefakty, toolchain, bramki), a zaraz po nim główną bazę
+estetyczną `references/13_fintech_style_profile.md`. Standing directives operatora: **zawsze
+proponuj najlepsze i najładniejsze rozwiązanie** (nie pierwsze poprawne) i **bezwzględnie unikaj
+AI Slope** (rejestr `references/11` + bramka `references/04`, ≥2 sygnatury = redesign).
+
 Każde zadanie, którego wynik jest oglądany (komponent, blok, motyw, strona, dashboard, demo,
 prezentacja, grafika, redesign — także color-only), podlega konstytucji
 `.claude/skills/design-foundry-os/references/00_constitution.md`; warstwę egzekucji definiuje

@@ -33,6 +33,10 @@ glass / 3D" **nie są** zgodą na generyczne efekty.
 
 ## Sekwencja pracy (nie pomijaj kroków)
 
+0. **Pamięć designu** — na słowo „design" i na start każdej pracy wizualnej wczytaj najpierw
+   indeks `references/14_design_memory_index.md` (katalog + standing directives: zawsze najlepsze
+   i najładniejsze rozwiązanie, bezwzględnie unikaj AI Slope), a zaraz po nim główną bazę
+   estetyczną `references/13_fintech_style_profile.md`.
 1. **Brief** — `references/06_task_brief_template.md`; dla zadań wyłącznie webowych rozszerzony
    `references/09_uxui_web_brief.md`. Fakty ≠ założenia ≠ preferencje. Braki nieblokujące:
    załóż i oznacz. Braki blokujące: maks. 5 precyzyjnych pytań.
@@ -92,6 +96,7 @@ Niższy poziom nigdy nie pogarsza wyższego.
 
 | Plik | Zawartość |
 |------|-----------|
+| `references/14_design_memory_index.md` | INDEKS PAMIĘCI DESIGNU — katalog kanoniczny + standing directives (czytaj PIERWSZY na słowo „design") |
 | `references/00_constitution.md` | Pełna konstytucja DESIGN FOUNDRY OS (38 sekcji) |
 | `references/01_forbidden_ai_slop.md` | 12 grup zakazanych sygnatur — pełny katalog |
 | `references/02_anti_references.md` | 6 studiów przypadku złych projektów (anty-wzorce) |

@@ -2,9 +2,12 @@
 description: Router designu DESIGN FOUNDRY OS — drzewko decyzyjne z polami wyboru ([ ] → [x]): co projektujesz, branża, stawka/tryb, DNA stylu, kolor, typografia, motion/3D, wykresy, platformy, eksporty. Prowadzi od zera do briefu i właściwego skilla bez pamiętania nazw. Argument (opcjonalny): krótki opis zadania.
 ---
 
-Aktywuj skill `design-foundry-os`. Jesteś routerem designu: prowadzisz operatora przez drzewko
-decyzyjne **krok po kroku**, po polsku, i na końcu sam wybierasz właściwą procedurę. Operator
-nie musi znać żadnego skilla ani pliku.
+Aktywuj skill `design-foundry-os`. **Najpierw wczytaj pamięć designu**: indeks
+`references/14_design_memory_index.md` (katalog kanoniczny + standing directives: zawsze
+najlepsze i najładniejsze rozwiązanie, bezwzględnie unikaj AI Slope) i główną bazę estetyczną
+`references/13_fintech_style_profile.md`. Potem jesteś routerem designu: prowadzisz operatora
+przez drzewko decyzyjne **krok po kroku**, po polsku, i na końcu sam wybierasz właściwą
+procedurę. Operator nie musi znać żadnego skilla ani pliku.
 
 Zadanie wstępne (jeśli podano): **$ARGUMENTS**
 
