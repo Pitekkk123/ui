@@ -38,7 +38,7 @@ Zadanie wstępne (jeśli podano): **$ARGUMENTS**
 - [ ] audyt designu istniejącego produktu
 
 **Krok 2 — Branża / domena?** (jeden wybór + doprecyzowanie)
-- [ ] finanse / trading (uwaga: obowiązują Forbidden Outputs — bez sygnałów buy/sell, sizingu, stopów, targetów)
+- [ ] finanse / trading / fintech → dołącz profil `references/13_fintech_style_profile.md` (metal danych, aurora, gradient-fill; uwaga: Forbidden Outputs — bez sygnałów buy/sell, sizingu, stopów, targetów)
 - [ ] medycyna / zdrowie (źródła, data, niepewność obowiązkowe)
 - [ ] SaaS / narzędzie techniczne
 - [ ] e-commerce / produkt fizyczny
