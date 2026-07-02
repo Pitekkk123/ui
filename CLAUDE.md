@@ -32,7 +32,9 @@ Zasady szczególne dla tego repo:
 - **shadcn/ui = zachowanie, dostępność, primitives. Nigdy art direction.** Końcowy język
   wizualny produktu ma być własny — budowany tokenami, typografią, gridem, rytmem i skalą.
 - Mechanika komponentów → skill `shadcn`; „co i po co powstaje oraz jak ma wyglądać" →
-  DESIGN FOUNDRY OS.
+  DESIGN FOUNDRY OS. Nowy design system / DESIGN.md → skill `design-consultation`;
+  projekty o wysokiej stawce → tryb turniejowy
+  (`.claude/skills/design-foundry-os/references/10_master_system_prompt.md`).
 - ≥2 sygnatury z automatycznej bramki odrzucenia (dark SaaS + neon, gradientowy headline,
   karta-w-karcie, badges wszędzie, modal-aplikacja, ściana checkboxów…) = redesign od podstaw,
   nie kosmetyka.

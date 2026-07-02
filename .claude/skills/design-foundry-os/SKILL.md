@@ -96,3 +96,4 @@ Niższy poziom nigdy nie pogarsza wyższego.
 | `references/07_toolchain.md` | Darmowy/tani toolchain: Figma, Affinity, Blender, GSAP, Rive… |
 | `references/08_uxui_web_foundry.md` | Wariant web-only: stałe instrukcje projektu do wklejania (konstytucja nadrzędna) |
 | `references/09_uxui_web_brief.md` | Rozszerzony brief zadań web-only (17 sekcji); para z 08 |
+| `references/10_master_system_prompt.md` | Tryb turniejowy: 6 koncepcji, panel krytyków ≥84/100, reconnaissance |
