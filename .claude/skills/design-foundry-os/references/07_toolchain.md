@@ -72,6 +72,34 @@ Playwright • axe-core • GSAP • Rive • Three.js tylko w uzasadnionych mie
 - **Nie kupuj na start:** Adobe Creative Cloud, Webflow, Framer, drogie 3D, biblioteki
   szablonów. Nie brakuje aplikacji — brakuje procesu selekcji, krytyki i testów.
 
+## Workflow minimalny (Claude-first): od koncepcji do produktu
+
+Ścieżka bez dodatkowych aplikacji — wszystko w Claude + przeglądarka:
+
+```
+Claude Design (koncepcje)
+  → 3 kierunki artystyczne i wybór koncepcji
+  → Claude Code
+  → działający design system w repozytorium
+  → pionowy fragment produktu (vertical slice)
+  → automatyczne screenshoty i testy
+  → poprawki wizualne
+  → pełny produkt
+```
+
+| Narzędzie | Funkcja | Osobna aplikacja? | Koszt |
+|---|---|---:|---:|
+| Claude Max 20x | koncepcje, analiza i praca w Claude Code | już masz | już opłacone |
+| Claude Code | tworzenie kodu, design systemu, testów i dokumentacji | już masz | w planie |
+| Git | wersjonowanie i bezpieczne cofanie zmian | instalacja techniczna | 0 |
+| Node.js + pnpm | uruchamianie projektu i bibliotek | instalacja techniczna | 0 |
+| Chrome lub Edge | podgląd i DevTools | prawdopodobnie masz | 0 |
+| Safari na iPhonie | rzeczywisty test mobilny | już masz | 0 |
+| GitHub Free | prywatne repozytorium i CI | konto internetowe | 0 |
+
+Pełny zestaw kreatywny (Figma, Affinity, Blender, Resolve, Rive…) z tabeli wyżej dokładasz
+dopiero, gdy zadanie tego wymaga — workflow minimalny wystarcza do web designu end-to-end.
+
 ## Pierwszy vertical slice (zanim powstanie „fabryka designu")
 
 Produkt analityczny lub medyczny → living brief → profil Oura + Thorne + akcent BUCK →

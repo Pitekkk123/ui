@@ -19,7 +19,17 @@ instrukcje dla Claude Code.
 (lint + typecheck + format) • `pnpm test` • `pnpm registry:build` po zmianach w registry.
 Package manager: **pnpm** (zob. `packageManager` w package.json).
 
+Praca wizualna: **`/design`** (`.claude/commands/design.md`) — drzewko decyzyjne z polami
+wyboru prowadzące od briefu do właściwego trybu; nie wymaga znajomości skilli.
+
 ## Design — DESIGN FOUNDRY OS (nadrzędne przy każdej pracy wizualnej)
+
+**Słowo „design" (i każde zadanie, którego wynik się ogląda) → wczytaj NAJPIERW indeks pamięci
+designu `.claude/skills/design-foundry-os/references/14_design_memory_index.md`** (katalog
+kanoniczny: preferencje estetyczne, artefakty, toolchain, bramki), a zaraz po nim główną bazę
+estetyczną `references/13_fintech_style_profile.md`. Standing directives operatora: **zawsze
+proponuj najlepsze i najładniejsze rozwiązanie** (nie pierwsze poprawne) i **bezwzględnie unikaj
+AI Slope** (rejestr `references/11` + bramka `references/04`, ≥2 sygnatury = redesign).
 
 Każde zadanie, którego wynik jest oglądany (komponent, blok, motyw, strona, dashboard, demo,
 prezentacja, grafika, redesign — także color-only), podlega konstytucji
@@ -32,7 +42,9 @@ Zasady szczególne dla tego repo:
 - **shadcn/ui = zachowanie, dostępność, primitives. Nigdy art direction.** Końcowy język
   wizualny produktu ma być własny — budowany tokenami, typografią, gridem, rytmem i skalą.
 - Mechanika komponentów → skill `shadcn`; „co i po co powstaje oraz jak ma wyglądać" →
-  DESIGN FOUNDRY OS.
+  DESIGN FOUNDRY OS. Nowy design system / DESIGN.md → skill `design-consultation`;
+  projekty o wysokiej stawce → tryb turniejowy
+  (`.claude/skills/design-foundry-os/references/10_master_system_prompt.md`).
 - ≥2 sygnatury z automatycznej bramki odrzucenia (dark SaaS + neon, gradientowy headline,
   karta-w-karcie, badges wszędzie, modal-aplikacja, ściana checkboxów…) = redesign od podstaw,
   nie kosmetyka.
