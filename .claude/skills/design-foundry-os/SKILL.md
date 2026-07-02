@@ -93,3 +93,4 @@ Niższy poziom nigdy nie pogarsza wyższego.
 | `references/05_device_matrix.md` | Viewporty desktop, zoom, iPhone 16 Pro Max, iOS z Windows |
 | `references/06_task_brief_template.md` | Szablon briefu każdego zadania |
 | `references/07_toolchain.md` | Darmowy/tani toolchain: Figma, Affinity, Blender, GSAP, Rive… |
+| `references/08_uxui_web_foundry.md` | Wariant web-only: stałe instrukcje projektu do wklejania (konstytucja nadrzędna) |
