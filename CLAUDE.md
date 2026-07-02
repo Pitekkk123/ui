@@ -19,6 +19,9 @@ instrukcje dla Claude Code.
 (lint + typecheck + format) • `pnpm test` • `pnpm registry:build` po zmianach w registry.
 Package manager: **pnpm** (zob. `packageManager` w package.json).
 
+Praca wizualna: **`/design`** (`.claude/commands/design.md`) — drzewko decyzyjne z polami
+wyboru prowadzące od briefu do właściwego trybu; nie wymaga znajomości skilli.
+
 ## Design — DESIGN FOUNDRY OS (nadrzędne przy każdej pracy wizualnej)
 
 Każde zadanie, którego wynik jest oglądany (komponent, blok, motyw, strona, dashboard, demo,
