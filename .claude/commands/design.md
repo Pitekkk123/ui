@@ -38,7 +38,7 @@ Zadanie wstępne (jeśli podano): **$ARGUMENTS**
 - [ ] audyt designu istniejącego produktu
 
 **Krok 2 — Branża / domena?** (jeden wybór + doprecyzowanie)
-- [ ] finanse / trading / fintech → dołącz profil `references/13_fintech_style_profile.md` (metal danych, aurora, gradient-fill; uwaga: Forbidden Outputs — bez sygnałów buy/sell, sizingu, stopów, targetów)
+- [ ] finanse / trading / fintech → dołącz profil operatora `references/13_fintech_style_profile.md` (metal danych, aurora, gradient-fill; uwaga: Forbidden Outputs — bez sygnałów buy/sell, sizingu, stopów, targetów)
 - [ ] medycyna / zdrowie (źródła, data, niepewność obowiązkowe)
 - [ ] SaaS / narzędzie techniczne
 - [ ] e-commerce / produkt fizyczny
@@ -62,7 +62,8 @@ Zadanie wstępne (jeśli podano): **$ARGUMENTS**
 - [ ] Apple HIG — jasność, ciągłość, systemowa dostępność
 - Poziom eksperymentu 0–10: ___
 - **Pytanie otwarte:** jaką JEDNĄ rzecz ma zapamiętać osoba widząca produkt pierwszy raz?
-- (dla web domyślnie zastosuj język serii `references/12_positive_references.md`)
+- (dla web domyślnie zastosuj język serii `references/12_positive_references.md`;
+  ZAWSZE najpierw przejrzyj główną bazę estetyczną `references/13_fintech_style_profile.md`)
 
 **Krok 5 — Kolorystyka?** (wybór wielokrotny, maks. „1 neutralna temperatura + 1 główny + 1 akcent")
 - Neutrale: [ ] jasne ciepłe (bone/ivory/paper) [ ] ciemne z temperaturą (ink/graphite/deep navy — wymaga uzasadnienia)
@@ -103,5 +104,7 @@ Zadanie wstępne (jeśli podano): **$ARGUMENTS**
    `references/06_task_brief_template.md`. Pokaż wypełniony brief do akceptacji.
 2. Poprowadź wybraną w kroku 3 procedurę (sekwencja / turniej / konsultacja / color-only).
 3. Egzekwuj bramki: `references/04_acceptance_gates.md` + rejestr
-   `references/11_slop_signatures_registry.md` (≥2 sygnatury = redesign; bez kosmetycznego retuszu).
+   `references/11_slop_signatures_registry.md` (≥2 sygnatury = redesign; bez kosmetycznego retuszu)
+   + części III–V bazy `references/13_fintech_style_profile.md` (krawędzie bez ramek,
+   haptyka/zachowania, regresje operatora).
 4. Raportuj wg „show, don't claim": co wykonano / przetestowano / czego nie zweryfikowano.

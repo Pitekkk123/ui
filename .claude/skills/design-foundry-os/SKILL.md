@@ -43,9 +43,11 @@ glass / 3D" **nie są** zgodą na generyczne efekty.
 3. **Referencje** — `references/03_reference_dna.md`: profil główny 60–70%, wspierający 20–30%,
    akcentowy ≤10%. Zasady, nie powierzchnia. Dla projektów **web** domyślnym punktem wyjścia
    jest język designu ze wzorcowej serii `references/12_positive_references.md`
-   (Thorne, Instrument, BASIC/DEPT, Liquid Glass Studio — dyrektywa użytkownika). Dla zadań
-   **fintech** (wystarczy to słowo) dołącz obowiązkowo profil
-   `references/13_fintech_style_profile.md`.
+   (Thorne, Instrument, BASIC/DEPT, Liquid Glass Studio — dyrektywa użytkownika). **Przy KAŻDYM
+   projekcie analizuj NAJPIERW główną bazę estetyczną operatora**
+   `references/13_fintech_style_profile.md` (definicja sukcesu Instrument×Oura, frosted glass
+   z krawędziami bez ramek, pomarańczowy horyzont, haptyka i zachowania, regresje QA);
+   dla zadań **fintech** (wystarczy to słowo) stosuj dodatkowo jej część I w pełni.
 4. **System wizualny przed dekoracją** — grid, rytm, skala typografii, paleta neutralna + maks.
    1–2 akcenty, kolory semantyczne i danych, materiały, motion, stany focus/hover/active/
    disabled. Hierarchia najpierw typografią, przestrzenią, wyrównaniem, skalą, kontrastem —
@@ -103,4 +105,4 @@ Niższy poziom nigdy nie pogarsza wyższego.
 | `references/10_master_system_prompt.md` | Tryb turniejowy: 6 koncepcji, panel krytyków ≥84/100, reconnaissance |
 | `references/11_slop_signatures_registry.md` | Pamięć trwała: 7 testów, 15 sygnatur → co zamiast, sygnatury per obszar, werdykt red-team (uwaga: nadpisuje „preferuj Inter") |
 | `references/12_positive_references.md` | Wzorce (seria pozytywna): Thorne, Instrument, BASIC/DEPT, Liquid Glass Studio — sygnatury stylu + zastosowanie w web |
-| `references/13_fintech_style_profile.md` | Profil FINTECH (dyrektywa użytkownika, trigger: słowo „fintech"): metal danych, teren 3D, aurora, gradient-fill serii, frosted studio + guardrails |
+| `references/13_fintech_style_profile.md` | GŁÓWNA BAZA ESTETYCZNA operatora (analizuj pierwszą przy każdym projekcie) + profil fintech: Instrument×Oura jako definicja sukcesu, frosted glass bez ramek, horyzont, haptyka/zachowania, regresje QA |

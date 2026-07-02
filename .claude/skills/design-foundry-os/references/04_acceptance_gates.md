@@ -67,6 +67,11 @@ Przed deklaracją ukończenia wykonaj odpowiednie dla zakresu:
 - **eksporty:** każdy plik otwarty i obejrzany (PPTX w docelowym programie, PDF strona po
   stronie, HTML w przeglądarce).
 
+- **regresje operatora** (część V bazy `13_fintech_style_profile.md`): overflow liter poza
+  kafelki na realnych treściach; tokeny odziedziczone w KAŻDYM nowym module (oba motywy);
+  font-check każdego widoku (bez degradacji do stockowych); test 5 stanów każdego przycisku;
+  palety wyliczone i zharmonizowane.
+
 Testuj działanie, nie obecność elementów. Dla funkcji krytycznych pełny przepływ end-to-end.
 Po naprawie błędu — test regresji. **Testu niewykonanego nie oznaczaj jako zaliczony** —
 powiedz, że nie został wykonany i dlaczego.
