@@ -39,6 +39,21 @@ Zasady szczególne dla tego repo:
 - Show, don't claim: „responsywne / dostępne / przetestowane" tylko po faktycznej weryfikacji;
   raportuj czego nie sprawdzono.
 
+## Hooki jakościowe
+
+`.claude/settings.json` podpina cztery hooki; skrypty leżą w `.claude/hooks/`. Każdy raportuje
+albo blokuje — żaden nie poprawia po cichu czegoś, czego nie widać.
+
+| Hook                 | Zdarzenie                     | Co robi                                                                                                        |
+| -------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `format-edited-file` | PostToolUse (Write\|Edit)     | Prettier z konfiguracją repo na edytowanym pliku. Gdy nie może załadować pluginów, mówi o tym zamiast milczeć. |
+| `registry-parity`    | PostToolUse (Write\|Edit)     | Po edycji `registry/bases/{base,radix}` wskazuje ścieżkę lustrzaną, jeśli druga strona jest nietknięta.        |
+| `guard-commit`       | PreToolUse (Bash: git commit) | Odrzuca commit z kształtem poświadczenia w staged diffie oraz komunikat niezgodny z commitlintem.              |
+| `typecheck-on-stop`  | Stop                          | `pnpm typecheck` raz na turę; raportuje błędy, nie blokuje zakończenia tury.                                   |
+
+Formatowanie wymaga zbudowanego pakietu `shadcn` (`pnpm --filter=shadcn build`) — bez `dist/`
+`prettier-plugin-tailwindcss` nie rozwiąże `shadcn/tailwind.css`. Podgląd i edycja: `/hooks`.
+
 ## Higiena zmian
 
 - Nie zmieniaj plików upstream (komponenty, registry, CLI) przy zadaniach czysto
